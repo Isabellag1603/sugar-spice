@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Sugar & Spice</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff7f0;
+      color: #444;
+    }
+
+    .navbar {
+      background-color: #ffeac4 !important;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      color: #d26a6a !important;
+    }
+
+    .form-control {
+      border-radius: 20px;
+    }
+
+    .btn-outline-success {
+      border-radius: 20px;
+      border-color: #c2a671;
+      color: #fff;
+      background-color: #c2a671;
+    }
+
+    .main-banner {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .main-banner img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #d26a6a;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+
+    .card-title {
+      color: #d26a6a;
+      font-weight: 600;
+    }
+
+    .card-text {
+      color: #555;
+      font-size: 0.9rem;
+    }
+	   footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+      <img src="imagens/logo-removebg-preview.png" width="30" height="30" alt="Logo" /> Sugar&Spice
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarContent"
+      aria-controls="navbarContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="preco.html">Tabela de Preços</a></li>
+        <li class="nav-item active"><a class="nav-link" href="sanrio.html">Personagens</a></li>
+		<li class="nav-item"><a class="nav-link" href="descrição.html">Sobre nós</a></li>
+		<li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+		<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Pesquisar"
+          aria-label="Pesquisar"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+  <section class="main-banner">
+    <img src="imagens/sanrio.jpg" alt="Banner da loja" />
+    <h2>Sanrio</h2>
+    <p>
+      Venha conhecer um pouco da nossa turminha, escolha o que você mais se
+      identificou e garanta sua caixa de doces temática!
+    </p>
+  </section>
+
+  <div class="container pb-5">
+  <div class="row">
+    <!-- Hello Kitty -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/hellokitty.jpg" class="card-img-top" alt="Hello Kitty" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Hello Kitty</h5>
+          <p class="card-text">A gatinha mais charmosa do mundo, símbolo de amizade e doçura.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kuromi -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/kuromi.jpg" class="card-img-top" alt="Kuromi" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Kuromi</h5>
+          <p class="card-text">Estilosa e ousada, perfeita para quem tem uma alma rebelde e divertida.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pochacco -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/pochaco.jpg" class="card-img-top" alt="Pochacco" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Pochacco</h5>
+          <p class="card-text">Um filhote de cachorro esportista, muito fofo e cheio de energia.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Melody -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/mymelodi.jpg" class="card-img-top" alt="My Melody" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">My Melody</h5>
+          <p class="card-text">Meiga e delicada, sempre pronta para espalhar amor com seus doces encantadores.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badtz-Maru -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/Badtz-Maru.jpg" class="card-img-top" alt="Badtz-Maru" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Badtz-Maru</h5>
+          <p class="card-text">Irreverente e engraçado, é ideal para uma caixa com atitude e sabor marcante.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Keroppi -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/keropi.jpg" class="card-img-top" alt="Keroppi" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Keroppi</h5>
+          <p class="card-text">A rãzinha aventureira! Alegre, curiosa e perfeita para doces criativos.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pompompurin -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/pompumpurim.jpg" class="card-img-top" alt="Pompompurin" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Pompompurin</h5>
+          <p class="card-text">Fofíssimo e tranquilo, traz o sabor da calmaria e do carinho nas caixinhas.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cinnamoroll -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/Cinnamoroll.jpg" class="card-img-top" alt="Cinnamoroll" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Cinnamoroll</h5>
+          <p class="card-text">Um cãozinho voador super doce e gentil — tão leve quanto nossos cupcakes!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chococat -->
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 text-center shadow-sm">
+        <img src="imagens/chococat.jpg" class="card-img-top" alt="Chococat" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Chococat</h5>
+          <p class="card-text">Inteligente e curioso, Chococat está sempre cheio de ideias criativas — ideal para uma caixa moderna e surpreendente!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+    © 2025 Sugar & Spice. Todos os direitos reservados.
+  </footer>
+
+
+  <!-- Scripts Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
